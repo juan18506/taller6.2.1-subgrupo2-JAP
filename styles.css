@@ -1,4 +1,9 @@
 body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(255, 255, 165);
 }
 
@@ -16,4 +21,8 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+.p{
+    max-width: 60rem;
 }
