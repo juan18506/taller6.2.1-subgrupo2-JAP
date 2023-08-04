@@ -1,11 +1,24 @@
+
 body {
     background-color: rgb(255, 255, 165);
 }
 
 .image{
-    border: 5px solid green;
-    border-radius: 10px;
+    border-radius: 10px 100px / 120px 100px;
     height: 400px;
+}
+
+.image:hover{
+    scale: 125%;
+}
+
+h1, h2{
+    font-family: 'REM', sans-serif;
+    color:blueviolet;
+}
+
+p{
+    font-family: 'Bitter', serif;
 }
 
 .link-button {
