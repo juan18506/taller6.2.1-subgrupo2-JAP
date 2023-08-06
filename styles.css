@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+/*Estilo global */
 * {
   font-family: 'Anton', sans-serif;
   box-sizing: border-box;
@@ -7,6 +8,7 @@
   padding: 0;
 }
 
+/*Estilo del cuerpo */
 body {
     height: 100vh;
     margin: 0;
@@ -14,9 +16,26 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background-color: white
+    background-color: #cccccc;
+    background-image: url("cool.png");
 }
 
+/*Estilo de los títulos */
+h1{
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  background-color: lightgrey;
+  width: 400px;
+  border: 15px solid #000000;
+}
+
+h2 {
+margin: 3rem 0;
+}
+
+/*Estilo de la imagen*/
 .image{
   box-shadow: -2px -2px 10px rgba(0, 0, 0, .7);
   height: 400px;  
@@ -24,9 +43,10 @@ body {
 }
 
 .image:hover {
-  scale: 1.05;
+  transform: scale(1.05);
 }
 
+/*Estilo del botón*/
 .link-button {
   align-items: center;
   background-color: #ff9292;
@@ -40,14 +60,15 @@ body {
   justify-content: center;
   line-height: 24px;
   margin: auto;
-  max-width: 20%;
-  padding: 0 25px;
+  margin-top: 20px;
+  padding: 25px;
   position: relative;
   text-align: center;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  
 }
 
 .link-button:after {
@@ -76,13 +97,4 @@ body {
 
 .link-button:hover {
   outline: 0;
-}
-
-h1{
-    text-align: center;
-    margin: auto;
-}
-
-h2 {
-  margin: 3rem 0;
 }
